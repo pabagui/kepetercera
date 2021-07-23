@@ -1,0 +1,257 @@
+/* estilo general */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background:
+	linear-gradient(to top, #F7D27E,#FA8E69);
+}
+
+h2 {
+	color: #E64D19;
+	font-family: 'Julee', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+/* estilo logo y rrss encabezado */
+.logo {
+	width: 100px;
+	height: 120px;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+h1 {
+	color: #E64D19;
+	font-family: 'Syne Tactile', cursive;
+	font-size: 55px;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.rrss {
+	width: 50px;
+	height: 30px;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+
+/* estilo de menú */
+.menu {
+background-color:#E64D19;
+height: auto;
+}
+
+.menu__efectos {
+	border-radius: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: blanchedalmond;
+	font-size: 22px;
+	text-decoration: none;
+	border-radius: 15%;
+}
+.menu__efectos:hover {
+	background-color: blanchedalmond;
+	transition: 0.7s;
+	color: #E64D19;
+}
+
+.nav-item {
+	padding: 10px 10px;
+}
+
+
+/* estilo footer */
+.pieDePagina {
+	margin: 1em;
+}
+
+.pieDePagina__texto {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	color: #E64D19;
+	font-weight: bolder;
+	padding-top: 3em;
+}
+
+
+/* estilo Home  */
+.inicio {
+	display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #E64D19;
+	margin: 3em 25%;
+	padding: 16px;
+	height: auto;
+	width: 50%;
+}
+
+.inicio__img {
+	margin: auto;
+	animation-duration: 7s;
+	animation-name: aparecer;
+	animation-iteration-count:initial;
+}
+ 
+@keyframes aparecer {
+    0% {
+        opacity: 0;  /* cuando no tiene animación*/
+    }
+    100% {
+        opacity: 1;  /* cuando tiene animación*/
+    }
+}
+
+.inicio__texto {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	color: blanchedalmond;
+	font-weight: 700;
+	padding: 20px;
+	text-align: center;
+}
+
+
+/* estilo Productos  */
+.productos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #E64D19;
+	margin: 3em 15%;
+	height: auto;
+	width: auto;
+}
+
+.card {
+		background: #F7D27E;
+		margin: 0.5rem;
+}
+
+.productos__img {
+	width: 100%;
+	height: 280px;
+}
+
+.productos__img:hover {
+	transform: scale(1.2,1.2);
+	transition: 0.7s;
+}
+	
+h4 {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 20px;
+		text-align: center;
+		color:#E64D19;
+		font-weight: bold;
+}
+
+.productos__texto {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 14px;
+		text-align: center;
+		color: #E64D19;
+		font-weight: bold;
+} 
+	
+
+/* estilo Tiendas  */
+.tiendas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #E64D19;
+	margin: 3em 15%;
+	height: auto;
+	width: auto;
+}
+
+h3 {
+	font-size: 22px;
+	text-align: center;
+	padding: 16px;
+	color: #E64D19;
+	font-weight: bold;
+}
+
+.tiendas__link{
+	padding: 16px;
+}
+
+.tiendas__texto {
+	color: #E64D19;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+/* estilo Quiénes somos */
+.nosotros {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #E64D19;
+	margin: 3em 10%;
+	height: auto;
+	width: auto;
+}
+
+.nosotros__texto {
+	margin: 1em;
+	padding: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	color: blanchedalmond;
+}
+.nosotros__img {
+		width: 100%;
+		height: 220px;
+		margin: 1em;
+		padding: 2em;
+}
+
+.nosotros__video {
+	margin: 1em;
+	padding: 2em;
+}
+
+
+/* estilo Contacto */
+.contacto {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background: #E64D19;
+	margin: 3em 15%;
+	height: auto;
+	width: auto;
+	padding: 2em;
+}
+
+h4 {
+	font-weight: lighter;
+	font-size: 17px;
+}
+
+.contacto__formulario {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	color: blanchedalmond;
+	padding: 0.5em;
+	margin: 0.5em;
+}
